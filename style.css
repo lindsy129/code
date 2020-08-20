@@ -21,7 +21,8 @@
 .icon-lght{
   background-color: #93A5FF;
 }
-.icon svg {
+.icon svg,
+.icon img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
@@ -42,6 +43,7 @@
 	color: #fff;
 }
 
+
 .body>*:not(:last-child) {
 	margin-bottom: 24px;
 }
@@ -49,7 +51,9 @@
 .title,
 .content,
 .action,
-.action2 {
+.action2,
+.header3,
+.header4 {
 	letter-spacing: 1px;
 	line-height: 37px;
 	font-family: 'Nunito', sans-serif;
@@ -69,8 +73,27 @@
 	align-items: center;
 }
 
-.action:hover {
+.action2{
+	background-color: #424d83;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 6px 16px;
+	cursor: pointer;
+	transition: background-color 300ms, transform 500ms, color 300ms;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+.action:hover{
 	background-color: #424D83;
+	transform: translateY(-3px);
+	color:white;
+}
+.action2:hover{
+	background-color:#93A5FF;
 	transform: translateY(-3px);
 	color: white;
 }
@@ -109,22 +132,26 @@
 	object-fit: contain;
 }
 
-.header1 {
+.header1,
+.header3{
 	font-weight: bold;
 	font-size: 35px;
 	color: black;
 }
 
-.header2 {
+.header2,
+.header4 {
 	font-size: 28px;
 	color: black;
 }
 
-.body2>*:not(:last-child) {
+.body2
+.footer>*:not(:last-child) {
 	margin-bottom: 10px;
 }
 
-.body2 {
+.body2,
+.footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -152,4 +179,17 @@
 
 .lotsofclass>*:not(:last-child) {
 	margin-bottom: 80px;
+}
+.icon2 >img{
+
+	height: 200px;
+	width: 350px;
+	object-fit: contain;
+	margin-bottom: 40px;
+}
+.header4{
+	margin-bottom: 60px !important;
+}
+.header3{
+	margin-bottom: 16px;
 }
