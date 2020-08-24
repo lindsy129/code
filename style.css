@@ -7,9 +7,11 @@
 	box-sizing: border-box;
 	position: relative;
 }
-.bg-drk{
-  background-color: #424D83;
+
+.bg-drk {
+	background-color: #424D83;
 }
+
 .icon {
 	height: 77px;
 	width: 77px;
@@ -18,9 +20,11 @@
 	padding: 14px;
 	box-sizing: border-box;
 }
-.icon-lght{
-  background-color: #93A5FF;
+
+.icon-lght {
+	background-color: #93A5FF;
 }
+
 .icon svg,
 .icon img {
 	width: 100%;
@@ -43,7 +47,6 @@
 	color: #fff;
 }
 
-
 .body>*:not(:last-child) {
 	margin-bottom: 24px;
 }
@@ -53,7 +56,9 @@
 .action,
 .action2,
 .header3,
-.header4 {
+.header4,
+.title1,
+.listed{
 	letter-spacing: 1px;
 	line-height: 37px;
 	font-family: 'Nunito', sans-serif;
@@ -73,7 +78,7 @@
 	align-items: center;
 }
 
-.action2{
+.action2 {
 	background-color: #424d83;
 	border-radius: 5px;
 	color: white;
@@ -87,13 +92,15 @@
 	align-items: center;
 	justify-content: center;
 }
-.action:hover{
+
+.action:hover {
 	background-color: #424D83;
 	transform: translateY(-3px);
-	color:white;
+	color: white;
 }
-.action2:hover{
-	background-color:#93A5FF;
+
+.action2:hover {
+	background-color: #93A5FF;
 	transform: translateY(-3px);
 	color: white;
 }
@@ -126,32 +133,33 @@
 	box-sizing: border-box;
 }
 
-
 .background>img {
 	height: 104px;
 	object-fit: contain;
 }
 
 .header1,
-.header3{
+.header3,
+.title2 {
 	font-weight: bold;
 	font-size: 35px;
 	color: black;
 }
 
 .header2,
-.header4 {
+.header4,
+.title3 {
 	font-size: 28px;
 	color: black;
 }
 
-.body2
-.footer>*:not(:last-child) {
+.body2 .footer>*:not(:last-child) {
 	margin-bottom: 10px;
 }
 
 .body2,
-.footer {
+.footer,
+.title1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -180,16 +188,42 @@
 .lotsofclass>*:not(:last-child) {
 	margin-bottom: 80px;
 }
-.icon2 >img{
 
+.icon2>img {
 	height: 200px;
 	width: 350px;
 	object-fit: contain;
 	margin-bottom: 40px;
 }
-.header4{
+
+.header4 {
 	margin-bottom: 60px !important;
 }
-.header3{
+
+.header3 {
 	margin-bottom: 16px;
 }
+.boldlist{
+	font-size: 23px;
+	font-weight: bold;
+	color: #000;
+}
+.list{
+	font-size: 20px;
+	color: #000;
+}
+.listed {
+	display: flex;
+	flex-flow: column;
+	background-color: green;
+	box-sizing: border-box;
+	height: 545px;
+	width: 753px;
+	border-radius: 5px;
+	position: relative;
+	justify-content: center;
+	object-fit: contain;
+	padding: 44px;
+	top: 40px;
+	left: 650px;
+}	
