@@ -215,15 +215,43 @@
 .listed {
 	display: flex;
 	flex-flow: column;
-	background-color: green;
+	background-color:white;
 	box-sizing: border-box;
 	height: 545px;
-	width: 753px;
+	width: 765px;
 	border-radius: 5px;
 	position: relative;
 	justify-content: center;
 	object-fit: contain;
 	padding: 44px;
 	top: 40px;
-	left: 650px;
+	
+	margin-left: 26%;
 }	
+.icon3{
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	background-color: white;
+	padding: 14px;
+	box-sizing: border-box;
+	margin-left: 0%;
+}
+.icon3>img,
+.icon3>svg{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.title2{
+	margin-bottom: 20px !important;
+}
+.title3>*:not(:last-child){
+	margin-bottom: 20px;
+}
+.body2>*:not(:last-child){
+	margin-top: 20px;
+}
+.boldlist{
+	margin-bottom: 10px;
+}
