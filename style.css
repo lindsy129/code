@@ -224,9 +224,9 @@
 	justify-content: center;
 	object-fit: contain;
 	padding: 44px;
-	top: 40px;
 	
-	margin-left: 26%;
+	align-items: center;
+	
 }	
 .icon3{
 	height: 50px;
@@ -254,4 +254,21 @@
 }
 .boldlist{
 	margin-bottom: 10px;
+}
+.itemwrapper{
+	display:flex;
+	flex-flow: row;
+	align-items: center;
+}
+.itemwrapperli{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+.img{
+	height: 50px;
+	width: 50px;
+
+	
 }
