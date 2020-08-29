@@ -266,9 +266,9 @@
 	align-items: center;
 	justify-content: center;
 }
-.img{
-	height: 50px;
-	width: 50px;
+.img>img{
+	height: 250px;
+	width: 250px;
 
 	
 }
